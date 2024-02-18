@@ -69,10 +69,10 @@ const Hero = () => {
           </motion.h1> */}
 
           <h1>
-            <span style={{ fontWeight: "lighter" }}>WELLCOME </span> <br /> TO{" "}
+            <span style={{ fontWeight: "lighter" }}>WELCOME </span> <br /> TO{" "}
             <span style={{ color: "#A2FD02" }}>
               <Typewriter
-                words={["BOOM IN THE CITY"]}
+                words={["BOOM IN  CITY"]}
                 loop={Infinity}
                 cursor
                 cursorStyle="!"
