@@ -1,0 +1,42 @@
+.textimage-part{
+    height: auto;
+    width: 100vw;
+    display: flex;
+    margin: 8vh 0 2vh 0;
+    justify-content: space-around;
+    padding: 0% 1%;
+}
+.textimage-image{
+    height: auto;
+    width: 40%;
+     max-width: 645px; 
+    overflow: hidden;
+    box-shadow: 1px  1px 5px 1px grey;
+    border-radius: 5px ;
+   
+}
+.textimage-text{
+    color: #fff;
+    width: 46%;
+    color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.textimage-text h1{
+    font-weight: lighter;
+    font-size: clamp(1rem, 1rem + 2vw, 2.5rem);
+    
+}
+@media screen and (max-width:1000px) {
+    .textimage-text h1{
+        font-size: 2.3vw;
+    }
+    .textimage-part{
+        margin: 3vh 0 0vh 0;
+    }
+
+
+
+}

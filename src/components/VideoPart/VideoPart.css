@@ -1,0 +1,17 @@
+.video-part{
+    height: auto;
+     width: 100vw;
+     
+     overflow: hidden;
+     display: flex;
+     padding: 5vh 3vw;
+ }
+ .videos{
+ object-fit: cover;
+ width: 23%;
+ height: auto;
+ margin-left: 1.4vw;
+ max-height: 600px;
+ overflow: hidden;
+ box-shadow: 1px 1px 7px 1px grey;
+ }

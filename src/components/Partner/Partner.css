@@ -1,0 +1,40 @@
+.partners{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5%;
+    justify-content: space-around;
+}
+.partners div{
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+}
+.partners div img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,85 @@
+.navbar{
+    width: 100vw;
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 5%;
+    position: absolute;
+    top: 0;
+    z-index: 15;
+    position: fixed;
+}
+.logoimg{
+    overflow: hidden;
+}
+.logoimg img{
+
+height: auto;
+width: clamp(12rem, 14rem + 6vw, 27rem);
+animation: logox 2s ease-in .5s infinite alternate;
+transition: all 1s ease-in-out;
+}
+
+.hamburgerIcon{
+cursor: pointer;
+
+    font-size: clamp(3rem, 3rem + 2vw, 6rem);
+    color: white;
+    z-index: 15;
+
+   
+}
+
+.linkContainer{
+
+height: 400px;
+width: 400px;
+position: fixed;
+top:30px;
+right: -50px;
+z-index: 11;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.linkContainer ul{
+    overflow: visible;
+}
+.linkContainer ul li{
+    color: #fff;
+    font-size: 2rem;
+    padding: 4%;
+    overflow: visible;
+    font-weight: 600;
+    
+}
+.linkContainer ul li:hover{
+color: #ABFC0D;
+cursor: pointer;
+}
+
+
+@media screen and (max-width:550px) {
+    .logoimg img{
+        width: 100px;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .linkContainer{
+        right: -140px;
+        top: -10px;
+    }
+    .linkContainer ul li{
+        font-weight: 100;
+    }
+}
+#navcheck{
+    display: none;
+}
+#navlabel{
+    
+    display: none;
+}
