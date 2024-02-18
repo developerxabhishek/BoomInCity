@@ -81,15 +81,19 @@ const Footer = () => {
             </motion.div>
           </motion.div>
         </motion.div>
-        <motion.div className="footer-part-third">
-          <motion.h1
+        <div className="footer-part-third">
+          {/* <motion.h1
             variants={variant1}
             initial="initial"
             whileInView={"active"}
           >
             BOOM <span style={{ color: "#fff" }}>IN</span> CITY
-          </motion.h1>
-        </motion.div>
+          </motion.h1> */}
+
+          <h1 variants={variant1} initial="initial" whileInView={"active"}>
+            BOOM <span style={{ color: "#fff" }}>IN</span> CITY
+          </h1>
+        </div>
       </motion.div>
       <hr size="5" color="white" />
       <center></center>
